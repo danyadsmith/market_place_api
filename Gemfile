@@ -4,6 +4,7 @@ gem 'rails', '4.2.3'
 gem 'sqlite3'
 
 group :development, :test do
+  gem 'awesome_print', '~> 1.6', '>= 1.6.1'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
