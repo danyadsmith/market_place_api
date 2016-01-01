@@ -10,6 +10,12 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 2.14'
+  gem 'factory_girl_rails'
+  gem 'faker', '~> 1.6', '>= 1.6.1'
+end
+
 gem 'active_model_serializers'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
